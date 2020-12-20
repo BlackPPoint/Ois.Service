@@ -78,9 +78,9 @@ namespace Ois.Utils
             }
 
             // проверяем, что точка пересечения попала на оба отрезка и возвращаем результат
-            var segmentAContainsInterception = segmentA.Start.X <= intersection.X && intersection.X <= segmentA.End.X;
-            var segmentBContainsInterception = segmentB.Start.X <= intersection.X && intersection.X <= segmentB.End.X;
-            return segmentAContainsInterception && segmentBContainsInterception ? intersection : null;
+            var segmentAContainsIntersection = segmentA.Start.X <= intersection.X && intersection.X <= segmentA.End.X;
+            var segmentBContainsIntersection = segmentB.Start.X <= intersection.X && intersection.X <= segmentB.End.X;
+            return segmentAContainsIntersection && segmentBContainsIntersection ? intersection : null;
         }
 
         /// <summary>
