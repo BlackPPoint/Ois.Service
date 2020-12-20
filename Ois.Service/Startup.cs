@@ -53,7 +53,9 @@ namespace Ois.Service
 
                 // добавляем XML комментарии
                 var serviceDocsFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var dataDocsFilename = $"{typeof(Data.Point).Assembly.GetName().Name}.xml";
                 c.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, serviceDocsFilename));
+                c.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, dataDocsFilename));
             });
 
             // добавляем репозитории DAL
