@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Ois.Data;
-using Ois.Service.DAL.Etities;
+using Ois.Service.DAL.Entities;
 using Ois.Service.DAL.Repositories;
 using Ois.Service.Exceptions;
 using Ois.Utils;

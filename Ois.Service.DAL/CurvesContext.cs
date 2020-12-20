@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Ois.Service.DAL.Etities;
+using Ois.Service.DAL.Entities;
 
 namespace Ois.Service.DAL
 {

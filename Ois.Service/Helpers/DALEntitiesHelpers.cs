@@ -1,5 +1,5 @@
 ﻿using Ois.Data;
-using Ois.Service.DAL.Etities;
+using Ois.Service.DAL.Entities;
 using System.Linq;
 
 namespace Ois.Service
@@ -34,7 +34,7 @@ namespace Ois.Service
         /// <summary>
         /// Преобразует точку DAL к <see cref="Data.Point"/>
         /// </summary>
-        public static Data.Point ToDataPoint(this DAL.Etities.Point point)
+        public static Data.Point ToDataPoint(this DAL.Entities.Point point)
             => new Data.Point
             {
                 X = point.X,

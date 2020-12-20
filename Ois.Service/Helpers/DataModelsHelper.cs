@@ -1,5 +1,5 @@
 ﻿using Ois.Data;
-using Ois.Service.DAL.Etities;
+using Ois.Service.DAL.Entities;
 using System.Linq;
 
 namespace Ois.Service
@@ -22,8 +22,8 @@ namespace Ois.Service
         /// <summary>
         /// Преобразует <see cref="Data.Point"/> к точке DAL
         /// </summary>
-        public static DAL.Etities.Point ToDALPoint(this Data.Point point)
-            => new DAL.Etities.Point
+        public static DAL.Entities.Point ToDALPoint(this Data.Point point)
+            => new DAL.Entities.Point
             {
                 X = point.X,
                 Y = point.Y

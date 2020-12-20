@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Ois.Service.DAL.Etities
+namespace Ois.Service.DAL.Entities
 {
     /// <summary>
     /// Коллекция точек

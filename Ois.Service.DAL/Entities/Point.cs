@@ -1,4 +1,4 @@
-﻿namespace Ois.Service.DAL.Etities
+﻿namespace Ois.Service.DAL.Entities
 {
     /// <summary>
     /// Точка

@@ -1,4 +1,4 @@
-﻿using Ois.Service.DAL.Etities;
+﻿using Ois.Service.DAL.Entities;
 using System;
 using System.Threading.Tasks;
 

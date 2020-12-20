@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Ois.Service.DAL.Etities;
+using Ois.Service.DAL.Entities;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
